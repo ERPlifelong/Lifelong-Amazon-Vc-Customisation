@@ -1,0 +1,61 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-06-28 16:32:01.907023",
+ "default_view": "List",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "customer_mapping_section",
+  "customers",
+  "warehouse_mapping_section",
+  "warehouse"
+ ],
+ "fields": [
+  {
+   "fieldname": "customer_mapping_section",
+   "fieldtype": "Section Break",
+   "label": "Customer Mapping"
+  },
+  {
+   "fieldname": "customers",
+   "fieldtype": "Table",
+   "label": "Customers",
+   "options": "Lifelong Amazon DF Customer"
+  },
+  {
+   "fieldname": "warehouse_mapping_section",
+   "fieldtype": "Section Break",
+   "label": "Warehouse Mapping"
+  },
+  {
+   "fieldname": "warehouse",
+   "fieldtype": "Table",
+   "label": "Warehouse",
+   "options": "Lifelong Amazon DF Warehouse"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "issingle": 1,
+ "links": [],
+ "modified": "2024-06-28 16:32:01.907023",
+ "modified_by": "Administrator",
+ "module": "Lifelong Amazon Vc Customisation",
+ "name": "Lifelong Amazon DF Settings",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "print": 1,
+   "read": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
